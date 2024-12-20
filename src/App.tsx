@@ -1,5 +1,7 @@
 import './App.css'
-import UserPage from './components/UserPage'
+// import FormPage from './components/FormPage'
+import LoginFormPage from './components/LoginFormPage'
+//import UserPage from './components/UserPage'
 //import Counter from './components/Counter'
 // import LoginPage from './components/LoginPage'
 import { AuthProvider } from './context/AuthContext'
@@ -19,7 +21,9 @@ function App() {
         {/*<BasicTypes />*/}
         {/* <Counter /> */}
         {/* <LoginPage /> */}
-        <UserPage />
+        {/*<UserPage />*/}
+        {/* <FormPage/> */}
+        <LoginFormPage/>
       </div>
     </AuthProvider>
   )
